@@ -10,7 +10,11 @@ This is version 1.4 (Python). Version 2.0 will be in Java.
 
 ## Installation
 
-Python will need to be installed on the user's system for Combat Engine to run.
+Python and Pandas will need to be installed on the user's system for Combat Engine to run.
+
+To install Pandas on Linux:
+sudo apt install python3-pip
+pip3 install pandas
 
 ## Usage
 
@@ -23,6 +27,7 @@ python combatengine.py
 ```
 
 ## Game Flow
+
 I'm considering creating a flowchart to represent game flow. Suggestions on this subject are welcomed. Players do not take part in combat per se, but instead name a character which is then assigned randomly generated statistics. A monster is then generated with random statistics, and combat takes place automatically. If the player survives the encounter, they are presented with their remaining Hit Points, and asked if they would like to retire. Retiring ends the game, and saves the players score. If the player does not retire, a new monster is generated and another combat session takes place. This flow continues until the player retires, or is defeated.
 
 Start Game > Load Scores > Prompt for Character Name > Generate Character > Generate Monster > Run Combat
