@@ -28,7 +28,7 @@ python combatengine.py
 Players are prompted to name a character, whereupon combat takes place automatically. If the play wins, there is a chance the defeated monster will drop a potion. Players then have the option to use the potion, which will restore a small amount of health. Next, the retire prompt gives players a chance to end their game and save their score. Scores are only saved if a player retires.
 
 ## Updates/Improvements
-Version 2 will have a potion loop so that players will have the option of using multiple potions (if they have them) before resuming combat.
+Version 2 will have a potion loop so that players will have the option of using multiple potions (if they have them) before resuming combat. Version 2 will also have a "Play again?" option after a character is defeated.
 
 ## Contributing
 Feedback is very welcome. I'm primarly concerned with bugs and logical and syntaxual errors in the code, but suggestions regarding game flow and design are encouraged as well.
