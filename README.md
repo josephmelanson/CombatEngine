@@ -13,7 +13,9 @@ This is version 1.4 (Python). Version 2.0 will be in Java.
 Python and Pandas will need to be installed on the user's system for Combat Engine to run.
 
 To install Pandas on Linux:
+
 sudo apt install python3-pip
+
 pip3 install pandas
 
 ## Usage
@@ -28,19 +30,7 @@ python combatengine.py
 
 ## Game Flow
 
-I'm considering creating a flowchart to represent game flow. Suggestions on this subject are welcomed. Players do not take part in combat per se, but instead name a character which is then assigned randomly generated statistics. A monster is then generated with random statistics, and combat takes place automatically. If the player survives the encounter, they are presented with their remaining Hit Points, and asked if they would like to retire. Retiring ends the game, and saves the players score. If the player does not retire, a new monster is generated and another combat session takes place. This flow continues until the player retires, or is defeated.
-
-Start Game > Load Scores > Prompt for Character Name > Generate Character > Generate Monster > Run Combat
-
-IF Player survives combat > Game rolls for loot (potion) > Show player remaining HP > Prompt for retire
-
-ELSE Player defeated, game over.
-
-IF Player retires > Save score IF higher than previous high score
-
-ELSE IF Player has potion > Prompt player to use potion
-
-THEN Generate Monster > Run Combat > LOOP to IF Player survives combat
+Reference combatengine-flowchart.png for game flow.
 
 ## Contributing
 Feedback is very welcome. I'm primarly concerned with bugs and logical and syntaxual errors in the code, but suggestions regarding game flow and design are encouraged as well.
